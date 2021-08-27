@@ -1,0 +1,63 @@
+/* General Css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Hearder */
+header{
+    margin: 30px;
+}
+header p{
+    margin-top: 50px;
+}
+nav ul{
+    display: flex;
+    float: right;
+    margin-top: -35px;
+    font-weight: bold;
+
+}
+nav ul li{
+    padding: 15px;
+}
+
+/* Elements au centre */
+.elements-au-centre{
+    margin: 30px;
+    margin-top: 120px;
+}
+.element-droit-1{
+    width: 180px;
+}
+.element-droit-2{
+    width: 180px;
+    margin-top: 40px;
+}
+.milieu{
+    text-align: center;
+    margin-top: -220px;
+}
+.boutton-left{
+    float: right;
+    margin-right: 180px;
+    text-align: center;
+    border: 2px #000 solid;
+    border-radius: 30px;
+    padding: 5px;
+    width: 120px;
+}
+.boutton-left:hover{
+    background-color: #000;
+    color: #fff;
+}
+.elements-bottom{
+    display: flex;
+    margin-top: 130px;
+}
